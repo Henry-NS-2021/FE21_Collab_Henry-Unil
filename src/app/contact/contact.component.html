@@ -1,0 +1,32 @@
+<h1>Contact us</h1>
+<br><br>
+
+<form [formGroup]="info" (ngSubmit)="onSubmit()">
+
+    <label>
+        First Name:
+        <input type="text" placeholder="type your first name" fromControlName="firstName">
+    </label>&nbsp;
+    <br><br>
+
+    <label>
+        Last Name:
+        <input type="text" placeholder="type your last name" fromControlName="lastName">
+    </label>&nbsp;
+    <br><br>
+
+    <label>
+        E-Mail:
+        <input type="text" placeholder="input your e-mail" fromControlName="email">
+    </label>&nbsp;
+    <br><br>
+
+    <label>
+        Mobile Phone:
+        <input type="text" placeholder="input your mobile number" fromControlName="mobile">
+    </label> &nbsp; &nbsp;
+    <br><br><br>
+
+    <input type="submit" class="btn btn-primary" value="Submit">
+
+</form>
